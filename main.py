@@ -9,7 +9,7 @@ import random
 class Window(QMainWindow):
     def __init__(self):
         super().__init__()
-        loadUi("okr.ui", self)
+        loadUi("Ui.ui", self)
         self.pushButton.clicked.connect(self.sozdanie)
         self.circles = []
 
